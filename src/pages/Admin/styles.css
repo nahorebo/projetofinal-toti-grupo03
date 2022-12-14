@@ -1,0 +1,15 @@
+
+#buttom-update {
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#buttom-delete {
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+.buttons span{
+    font-weight: bold;
+}

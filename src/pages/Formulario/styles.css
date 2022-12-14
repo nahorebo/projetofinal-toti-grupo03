@@ -1,0 +1,11 @@
+
+.erro-message-form {
+  color: red;
+  font-weight: bold;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  text-transform: uppercase;
+}

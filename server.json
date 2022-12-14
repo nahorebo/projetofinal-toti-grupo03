@@ -1,0 +1,12 @@
+{
+  "alumns": [
+    {
+      "name": "Tomas",
+      "email": "example@mail.com",
+      "phone": "9999999999",
+      "class": "Turma 02",
+      "course": "HTML",
+      "id": 1
+    }
+  ]
+}

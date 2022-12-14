@@ -1,0 +1,55 @@
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    padding: 2rem 2rem;
+    text-align: center;
+    align-items: center;
+}
+
+.direito {
+    color: #fff
+}
+
+.parceiros {
+    font-size: 14px;
+}
+
+.social_list{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+
+.item_list {
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+.imag {
+    font-size: 1.6rem;
+    cursor: pointer;
+    color: rgb(255, 0, 195);
+}
+.imag:hover {
+    font-size: 1.6rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+.copy_right{
+    font-size: 18px;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+.span {
+    letter-spacing: 3px;
+}
+
+
+.companhe{
+    font-size: 1rem;
+}
