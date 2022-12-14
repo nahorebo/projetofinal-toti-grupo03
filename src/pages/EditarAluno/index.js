@@ -12,10 +12,9 @@ const EditarAluno = () => {
 
 
     useEffect(() => {
-        fetch('http://localhost:3004/alumns/' + id)
+        fetch("http://localhost:3004/alumns/" + id)
             .then(response => response.json())
             .then(data => {
-                console.log('DEU CERTO O ID')
                 setAlumns(data);
                 setIsPending(false);
             }
@@ -38,6 +37,7 @@ const EditarAluno = () => {
         })
             .then(response => response.json())
             .then(data => {
+                alert("ALUNO ATUALIZADO COM SUCESSO!")
                 navigate("/admin");
             }
             ).catch(error => {

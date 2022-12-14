@@ -9,3 +9,8 @@
   margin-top: 5px;
   text-transform: uppercase;
 }
+
+.label{
+  text-transform: uppercase;
+  text-align: center;
+}

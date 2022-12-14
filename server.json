@@ -1,11 +1,11 @@
 {
   "alumns": [
     {
-      "name": "Tomas",
+      "name": "TOMAS",
       "email": "example@mail.com",
-      "phone": "9999999999",
+      "phone": "119999999",
       "class": "Turma 02",
-      "course": "HTML",
+      "course": "JAVA SCRIPT",
       "id": 1
     }
   ]

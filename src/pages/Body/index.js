@@ -12,23 +12,23 @@ const Body = () => {
 
     <div className="containerprincipal">
 
-      <section id="eyes" class="section is-medium">
-        <div class="container">
-          <div class="columns is-vcentered">
-            <div class="column">
+      <section id="eyes" className="section is-medium">
+        <div className="container">
+          <div className="columns is-vcentered">
+            <div className="column">
               <p className="title is-1">RECURSOS EDUTECH</p>
               <p className="subtitle is-3">CONFIRA AS NOVIDADES</p>
             </div>
 
-            <div class="column">
+            <div className="column">
               <img className="image is-500x600 " src={foto1} />
             </div>
           </div>
         </div>
       </section>
 
-      <section id="layout" class="section is-medium">
-        <div class="tile is-ancestor">
+      <section id="layout" className="section is-medium">
+        <div className="tile is-ancestor">
         <div className="columns is-8 is-centered is-4 is-offset-8">
           <div className="tile is-2 is-vertical">
             <p className="title">Conheça HTML!</p>

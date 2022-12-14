@@ -6,8 +6,8 @@ import * as yup from "yup";
 import "./styles.css";
 
 const validationForm = yup.object().shape({
-    name: yup.string().required("Precisa colocar seu nome") .min(3, "Coloque Nome e Sobrenome"),
-    email: yup.string().email("E-mail não valido").required("Precisa colocar seu e-mail") ,
+    name: yup.string().required("Precisa colocar seu nome").min(3, "Coloque Nome e Sobrenome"),
+    email: yup.string().email("E-mail não valido").required("Precisa colocar seu e-mail"),
     phone: yup.string().required("Precisa colocar seu Telefone").min(3, "Telefone não valido").max(15, "Telefone não valido"),
     class: yup.string().required("Escolha uma Turma"),
     course: yup.string().required("Escolha um Curso"),
@@ -25,11 +25,10 @@ const Formulario = () => {
 
     const onSubmit = data => axios.post("http://localhost:3004/alumns", data)
         .then(() => {
-            alert("FOI CADASTRADO COM SUCESSO")
+            alert("PARABÉNS! DEVELOPER!\nCADASTRO FEITO COM SUCESSO!")
             navigate("/")
         })
         .catch(() => {
-            console.log("DEU ERRADO")
         })
 
 
@@ -102,7 +101,6 @@ const Formulario = () => {
                                     <label className="label">Curso:</label>
                                     <select
                                         id="input"
-                                        isMulti
                                         className={`input ${errors.course
                                             ? "is-danger"
                                             : "is-success"
@@ -118,11 +116,10 @@ const Formulario = () => {
                                 </div>
 
                                 <div className="field">
-
-                                    <p className="buttons">
-                                        <button 
-                                        type="submit"
-                                        className="button is-link is-outlined">
+                                    <p className="buttons is-centered">
+                                        <button
+                                            type="submit"
+                                            className="button is-link is-outlined is-centered">
                                             <span>CADASTRAR</span>
                                         </button>
                                     </p>

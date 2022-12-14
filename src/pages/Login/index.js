@@ -8,7 +8,7 @@ import { FaUserCircle } from "react-icons/fa";
 
 const validationForm = yup.object().shape({
     username: yup.string().required("Insira seu usuario").min(10, "Não tem autorização para logar"),
-    password: yup.string().required("Insira sua senha")
+    password: yup.string().required("Insira sua senha"),
 });
 
 const Login = () => {
@@ -19,7 +19,7 @@ const Login = () => {
     })
 
     const onSubmit = () => {
-    navigate("/admin")
+            navigate("/admin")
     }
 
     return (
@@ -33,30 +33,31 @@ const Login = () => {
 
                                 <div className="field">
                                     <label className="label"><FaUserCircle /> Usuario:</label>
-                                    <input 
-                                    input className={`input ${errors.username
-                                        ? "is-danger"
-                                        : "is-success"
-                                        }`}
-                                        type="password"
-                                        name="username" {...register("username")} 
-                                        />
-                                        
+                                    <input
+                                        className={`input ${errors.username
+                                            ? "is-danger"
+                                            : "is-success"
+                                            }`}
+                                        type="text"
+                                        id="username"
+                                        name="username" {...register("username")}
+                                    />
                                     <span className="erro-message-login">{errors.username?.message}</span>
                                 </div>
 
                                 <div className="field">
                                     <label className="label"><GiPadlock /> Senha:</label>
-                                    <input className={`input ${errors.name
+                                    <input className={`input ${errors.password
                                         ? "is-danger"
                                         : "is-success"
                                         }`}
                                         type="password"
+                                        id="password"
                                         name="password" {...register("password")} />
                                     <span className="erro-message-login">{errors.password?.message}</span>
                                 </div>
 
-                                <p className="buttons">
+                                <p className="buttons is-centered">
                                     <button type="submit" className="button is-link is-outlined">
                                         <span>ENTRAR</span>
                                     </button>

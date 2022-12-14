@@ -33,12 +33,12 @@ const Header = () => {
           to="/">
           <img
             src={tecnologia}
-            width="200"
+            width="170"
             className="navbar-item"
             ClassName="is-active"/>
         </Link>
             <Link
-              className="navbar-item"
+              className="navbar-item "
               ClassName="is-active"
               to="/formulario">
               Cadastro
