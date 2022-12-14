@@ -32,7 +32,7 @@ const Body = () => {
         <div className="columns is-8 is-centered is-4 is-offset-8">
           <div className="tile is-2 is-vertical">
             <p className="title">Conheça HTML!</p>
-            <p className="subtitle">Sabe o significado das siglas de HTML? Faça dentro... Continue lendo</p>
+            <p className="subtitle">Sabe o significado das siglas de HTML?...</p>
             <figure>
               <img className="image is-128x128" src={html1} width="220" alt="logohtml" />
             </figure>
@@ -40,7 +40,7 @@ const Body = () => {
 
           <div className="tile is-2 is-vertical">
             <p className="title "> Aprenda JS!</p>
-            <p className="subtitle">Programação de alto nível criado para tudo o que... Continue lendo</p>
+            <p className="subtitle">Programação de alto nível criado para tudo o que...</p>
             <figure >
               <img className="image is-128x128" src={JS} width="220" alt="logojs" />
             </figure>
@@ -48,7 +48,7 @@ const Body = () => {
 
           <div className="tile is-2 is-vertical">
             <p className="title"> Inspira CSS!</p>
-            <p className="subtitle">Usado para estilizar elementos escritos em a fe... Continue lendo</p>
+            <p className="subtitle">Usado para estilizar elementos escritos em a fe...</p>
             <figure >
               <img className="image is-128x128" src={CSS1} width="220" alt="logocss" />
             </figure>

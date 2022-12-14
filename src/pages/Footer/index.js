@@ -9,7 +9,7 @@ function Footer () {
             <div>
                 <h4>Desenvolvido por:</h4>
                 <p>Antonio Vicente, 
-                   Nahomi Martinez, 
+                   Nahomi Rebolledo, 
                    Mirinda Fernando e
                    Sarah Hernandez</p>
             </div>
